@@ -27,7 +27,7 @@ export const customTheme = {
   },
   header: {
     base: "flex items-center justify-center border-b border-white p-5",
-    title: "text-2xl font-medium text-green-400",
+    title: "text-2xl font-medium text-gray-200",
     close: {
       base: "ml-auto inline-flex items-center rounded-full p-2 text-sm text-gray-200 hover:text-red-500 ",
       icon: "h-7 w-7",
