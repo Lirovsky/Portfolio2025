@@ -81,8 +81,8 @@ export function ProgressBars() {
             title="Figma"
             icon={<FaFigma />}
             progress={70}
-            color="dark"
-            text="text-gray-500 dark:text-gray-600"
+            color="lime"
+            text="text-lime-400 dark:text-lime-500"
           />
         </div>
       </div>

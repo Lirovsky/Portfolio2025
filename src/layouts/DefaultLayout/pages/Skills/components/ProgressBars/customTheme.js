@@ -11,7 +11,7 @@ export const customTheme = {
     cyan: "bg-cyan-300 dark:bg-cyan-400",
     cyan2: "bg-cyan-400 dark:bg-cyan-600",
     gray: "bg-gray-500",
-    lime: "bg-lime-600",
+    lime: "bg-lime-400 dark:bg-lime-500",
     pink: "bg-pink-500",
     teal: "bg-teal-600",
     orange: "bg-orange-300 dark:bg-orange-500",
