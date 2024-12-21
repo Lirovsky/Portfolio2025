@@ -20,7 +20,7 @@ export default function Cards({
       >
         <button
           onClick={() => setOpenModal(true)}
-          className="mb-14 rounded-full bg-orange-500 px-3 pb-1 pt-2 font-bebas text-lg text-white transition-all hover:bg-orange-400 dark:bg-cyan-500 dark:hover:bg-cyan-400 md:px-5 md:pb-2 md:pt-3 md:text-2xl"
+          className="mb-14 rounded-full border-2 bg-orange-500 px-3 pb-1 pt-2 font-bebas text-lg text-white transition-all hover:bg-orange-400 md:px-5 md:pb-2 md:pt-3 md:text-2xl dark:bg-cyan-500 dark:hover:bg-cyan-400"
         >
           SAIBA MAIS
         </button>

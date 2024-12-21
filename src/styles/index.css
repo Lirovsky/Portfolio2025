@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  @apply transition-colors duration-300;
+}
+
 :root {
   --text: 0, 255, 255;
   --bgdark: url("../img/bgdark.gif");
@@ -13,4 +17,7 @@
   --img2: url("../img/git.png");
   --img3: url("../img/financing1.png");
   --img4: url("../img/arsha1.png");
+
+  --roboto: "Roboto", serif;
+  --bebas: "Bebas Neue", serif;
 }

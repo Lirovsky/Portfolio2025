@@ -19,8 +19,8 @@ export default {
         img4: "var(--img4)",
       },
       fontFamily: {
-        roboto: ['"Roboto"', "sans-serif"],
-        bebas: ['"Bebas Neue"', "sans-serif"],
+        roboto: "var(--roboto)",
+        bebas: "var(--bebas)",
       },
       boxShadow: {
         cyan: "0 0 10px #06b6d4,0 0 10px #06b6d4,0 0 10px #06b6d4,0 0 10px #06b6d4;",
