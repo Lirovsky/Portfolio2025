@@ -37,11 +37,11 @@ export default function Cards({
           </p>
         </Modal.Header>
         <Modal.Body>
-          <div className="space-y-6">
-            <p className="text-base leading-relaxed text-gray-200 dark:text-gray-400">
+          <div className="space-y-4 sm:space-y-6">
+            <p className="text-sm leading-normal text-gray-200 sm:text-base dark:text-gray-400">
               {description}
             </p>
-            <p className="text-base leading-relaxed text-gray-200 dark:text-gray-400">
+            <p className="text-sm leading-normal text-gray-200 sm:text-base dark:text-gray-400">
               {technical}
             </p>
           </div>
