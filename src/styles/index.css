@@ -9,8 +9,8 @@
 
   --darkcontato: url("../img/bgdcontato.gif");
   --lightcontato: url("../img/bglcontato.gif");
-  --img1: url("./src/img/clima.png");
-  --img2: url("./src/img/git.png");
-  --img3: url("./src/img/financing1.png");
-  --img4: url("./src/img/arsha1.png");
+  --img1: url("../src/img/clima.png");
+  --img2: url("../src/img/git.png");
+  --img3: url("../src/img/financing1.png");
+  --img4: url("../src/img/arsha1.png");
 }
