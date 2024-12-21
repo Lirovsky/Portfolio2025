@@ -1,10 +1,10 @@
 import { Routes, Route } from "react-router-dom";
 import DefaultLayout from "./layouts/DefaultLayout";
-import Home from "./pages/Home";
-import Projetos from "./pages/Projects";
-import Skills from "./pages/Skills";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Home from "./layouts/DefaultLayout/pages/Home";
+import Projetos from "./layouts/DefaultLayout/pages/Projects";
+import Skills from "./layouts/DefaultLayout/pages/Skills";
+import About from "./layouts/DefaultLayout/pages/About";
+import Contact from "./layouts/DefaultLayout/pages/Contact";
 
 export function Router() {
   return (

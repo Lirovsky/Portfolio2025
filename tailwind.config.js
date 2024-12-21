@@ -5,10 +5,13 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", flowbite.content()],
   theme: {
     extend: {
+      colors: {
+        text: "rgb(var(--text))",
+      },
       backgroundImage: {
-        dark: "url('./src/img/bgdark.gif')",
+        dark: "var(--bgd)",
         darkcontato: "url('./src/img/bgdcontato.gif')",
-        light: "url('./src/img/bglight.gif')",
+        light: "var(--bgl)",
         lightcontato: "url('./src/img/bglcontato.gif')",
         img1: "url('./src/img/clima.png')",
         img2: "url('./src/img/git.png')",
@@ -39,4 +42,5 @@ export default {
     },
   },
   plugins: [flowbite.plugin()],
+  darkMode: "selector",
 };

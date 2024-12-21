@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { Navbar, DarkThemeToggle, Flowbite } from "flowbite-react";
+import { Navbar } from "flowbite-react";
 import logoDark from "../../img/logo.png";
 import logoLight from "../../img/logoLight.png";
+import { FaMoon, FaRegSun } from "react-icons/fa6";
 
 export default function NavBar() {
   const [logo, setLogo] = useState(logoDark);
@@ -34,17 +35,26 @@ export default function NavBar() {
     },
   ];
 
-  function handleLogo() {
+  const [darkMode, setDarkMode] = useState(() => {
+    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      return "dark";
+    } else {
+      return "light";
+    }
+  });
+
+  const handleChangeTheme = () => {
+    setDarkMode(darkMode === "light" ? "dark" : "light");
     setLogo(!logo);
-  }
+  };
 
   useEffect(() => {
-    if (logo) {
-      document.body.classList.add("dark");
+    if (darkMode === "dark") {
+      document.documentElement.classList.add("dark");
     } else {
-      document.body.classList.remove("dark");
+      document.documentElement.classList.remove("dark");
     }
-  }, [logo]);
+  }, [darkMode]);
 
   return (
     <Navbar className="fixed top-0 z-50 w-full bg-black/70 px-10 shadow-md shadow-orange-500 dark:bg-black/70 dark:shadow-cyan-500">
@@ -64,13 +74,12 @@ export default function NavBar() {
             />
           )}
         </NavLink>
-
-        <Flowbite>
-          <DarkThemeToggle
-            onClick={handleLogo}
-            className="rounded-full border-4 border-gray-300 px-2 py-1 text-gray-300 hover:border-orange-500 hover:bg-transparent hover:text-orange-500 focus:ring-transparent dark:border-cyan-400 dark:text-cyan-400 dark:hover:border-purple-700 dark:hover:bg-transparent dark:hover:text-purple-700 dark:focus:ring-transparent"
-          />
-        </Flowbite>
+        <button
+          className="rounded-full border-4 border-gray-300 px-2 py-1 text-gray-300 hover:border-orange-500 hover:bg-transparent hover:text-orange-500 focus:ring-transparent dark:border-cyan-400 dark:text-cyan-400 dark:hover:border-purple-700 dark:hover:bg-transparent dark:hover:text-purple-700 dark:focus:ring-transparent"
+          onClick={handleChangeTheme}
+        >
+          {logo ? <FaRegSun /> : <FaMoon />}
+        </button>
       </div>
       <Navbar.Toggle className="bg-transparent p-3 text-orange-500 hover:bg-transparent focus:bg-transparent focus:ring-orange-500 dark:text-cyan-400 dark:hover:bg-transparent dark:focus:bg-transparent dark:focus:ring-cyan-400 md:hidden" />
 
