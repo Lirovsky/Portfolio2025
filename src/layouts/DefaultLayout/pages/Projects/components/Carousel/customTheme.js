@@ -14,7 +14,7 @@ export const customTheme = {
       off: "bg-orange-500 dark:bg-cyan-800 dark:hover:bg-black/30",
       on: "bg-orange-300 dark:bg-cyan-500",
     },
-    base: "h-3 w-3 rounded-full",
+    base: "h-4 w-4 rounded-full",
     wrapper: "absolute bottom-5 left-1/2 flex -translate-x-1/2 space-x-3",
   },
   control: {
@@ -23,18 +23,18 @@ export const customTheme = {
     icon: "h-5 w-5 text-orange-400 dark:text-cyan-400 rounded-full p-2 sm:h-14 sm:w-16",
   },
   content: {
-    inner: "rounded-banner bg-black/70 shadow-orange dark:shadow-cyan",
+    inner: "rounded-banner bg-black/70  border-4",
   },
   header: {
-    base: "flex items-center justify-center border-b border-orange-500 dark:border-cyan-500 p-5",
-    title: "text-2xl font-medium text-orange-500 dark:text-cyan-500",
+    base: "flex items-center justify-center border-b border-white p-5",
+    title: "text-2xl font-medium text-green-400",
     close: {
-      base: "ml-auto inline-flex items-center rounded-full p-2 text-sm text-gray-400 hover:text-orange-500 dark:hover:text-cyan-500 hover:border-orange-500 dark:hover:border-cyan-500",
+      base: "ml-auto inline-flex items-center rounded-full p-2 text-sm text-gray-200 hover:text-red-500 ",
       icon: "h-7 w-7",
     },
   },
   footer: {
-    base: "flex items-center space-x-2 rounded-b border-orange-500 dark:border-cyan-500  p-6 ",
+    base: "flex items-center space-x-2 rounded-b border-white p-6 ",
     popup: "border-t",
   },
 };

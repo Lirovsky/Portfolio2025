@@ -26,6 +26,8 @@ export default {
         cyan: "0 0 10px #06b6d4,0 0 10px #06b6d4,0 0 10px #06b6d4,0 0 10px #06b6d4;",
         orange:
           "0 0 10px #f97316,0 0 10px #f97316,0 0 10px #f97316,0 0 10px #f97316;",
+        neutral:
+          "0 0 10px #e5e7eb,0 0 10px #e5e7eb,0 0 10px #e5e7eb,0 0 10px #e5e7eb;",
       },
       borderRadius: {
         banner: "48px",

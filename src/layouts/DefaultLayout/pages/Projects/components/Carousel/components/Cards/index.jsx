@@ -31,17 +31,17 @@ export default function Cards({
         theme={customTheme}
         className="z-10 mx-1 mt-24 rounded-3xl transition-all md:mt-0"
       >
-        <Modal.Header className="text-orange-500 dark:text-cyan-500">
+        <Modal.Header className="text-gray-200">
           <p className="flex items-center gap-4">
             {title} {icon}
           </p>
         </Modal.Header>
         <Modal.Body>
           <div className="space-y-6">
-            <p className="text-base leading-relaxed text-gray-300 dark:text-gray-400">
+            <p className="text-base leading-relaxed text-gray-200 dark:text-gray-400">
               {description}
             </p>
-            <p className="text-base leading-relaxed text-gray-300 dark:text-gray-400">
+            <p className="text-base leading-relaxed text-gray-200 dark:text-gray-400">
               {technical}
             </p>
           </div>
@@ -50,13 +50,13 @@ export default function Cards({
           <a
             href={url}
             target="_blank"
-            className="hover: rounded-lg bg-orange-500 px-4 pb-1 pt-2 font-bebas text-xl text-white transition hover:bg-orange-400 dark:bg-cyan-400 dark:hover:bg-cyan-500"
+            className="hover: rounded-lg bg-green-500 px-4 pb-1 pt-2 font-bebas text-xl text-white transition hover:bg-green-400"
           >
             Ver site
           </a>
           <button
             onClick={() => setOpenModal(false)}
-            className="hover: rounded-lg bg-white px-4 pb-1 pt-2 font-bebas text-xl text-black transition hover:bg-gray-300"
+            className="hover: rounded-lg border-2 bg-transparent px-4 pb-1 pt-2 font-bebas text-xl text-white transition hover:bg-red-600"
           >
             Voltar
           </button>

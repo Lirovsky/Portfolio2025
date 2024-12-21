@@ -99,21 +99,6 @@ export default function ProjectCarousel() {
             icon={<FaBuilding />}
             url="https://lirovsky.github.io/arsha/"
           />
-
-          {/* {cards.map((card) => {
-            return (
-              <Cards
-                id={card.id}
-                key={card.id}
-                bg={card.bg}
-                description={card.description}
-                technical={card.technical}
-                title={card.title}
-                icon={card.icon}
-                url={card.url}
-              />
-            );
-          })} */}
         </Carousel>
       </div>
     </Flowbite>
