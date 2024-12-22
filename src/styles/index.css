@@ -7,7 +7,6 @@
 }
 
 :root {
-  --text: 0, 255, 255;
   --bgdark: url("../img/bgdark.gif");
   --bglight: url("../img/bglight.gif");
 

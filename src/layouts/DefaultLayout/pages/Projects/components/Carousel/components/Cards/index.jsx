@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 
-import { Modal } from "flowbite-react";
 import { useState } from "react";
+import { Modal } from "flowbite-react";
 import { customTheme } from "../../customTheme";
 
 export default function Cards({

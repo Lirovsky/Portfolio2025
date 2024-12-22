@@ -5,9 +5,6 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}", flowbite.content()],
   theme: {
     extend: {
-      colors: {
-        text: "rgb(var(--text))",
-      },
       backgroundImage: {
         dark: "var(--bgdark)",
         darkcontato: "var(--darkcontato)",
