@@ -12,6 +12,7 @@ import {
   FaCss3,
   FaHtml5,
   FaFigma,
+  FaGithub,
 } from "react-icons/fa";
 
 export function ProgressBars() {
@@ -69,6 +70,13 @@ export function ProgressBars() {
             progress={90}
             color="cyan2"
             text="text-cyan-400 dark:text-cyan-600"
+          />
+          <Bar
+            title="Git + GitHub"
+            icon={<FaGithub />}
+            progress={90}
+            color="pink"
+            text="text-pink-500 dark:text-pink-600"
           />
           <Bar
             title="Cypress"

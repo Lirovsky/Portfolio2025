@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  @apply transition-colors duration-300;
-}
+/* * {
+  @apply transition-colors duration-100;
+} */
 
 :root {
   --bgdark: url("../img/bgdark.gif");

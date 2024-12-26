@@ -12,7 +12,7 @@ export const customTheme = {
     cyan2: "bg-cyan-400 dark:bg-cyan-600",
     gray: "bg-gray-500",
     lime: "bg-lime-400 dark:bg-lime-500",
-    pink: "bg-pink-500",
+    pink: "bg-pink-500 dark:bg-pink-600",
     teal: "bg-teal-600",
     orange: "bg-orange-300 dark:bg-orange-500",
   },
