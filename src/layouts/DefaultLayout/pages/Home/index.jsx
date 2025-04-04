@@ -16,7 +16,7 @@ export default function Home() {
     },
     {
       id: 3,
-      link: "https://drive.google.com/file/d/1kyAfWdUH_XeyvNEV2gylgUfTmdYnxGZw/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1frqqomn-WWPUEGQJWzb-33YtWxHgBLU9/view?usp=drive_link",
       target: "_blank",
       icon: <FaFileAlt />,
     },

@@ -8,8 +8,10 @@ export default {
       backgroundImage: {
         dark: "var(--bgdark)",
         darkcontato: "var(--darkcontato)",
+        darkcontato2: "var(--darkcontato2)",
         light: "var(--bglight)",
         lightcontato: "var(--lightcontato)",
+        lightcontato2: "var(--lightcontato2)",
         img1: "var(--img1)",
         img2: "var(--img2)",
         img3: "var(--img3)",

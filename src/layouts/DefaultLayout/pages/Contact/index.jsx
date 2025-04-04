@@ -35,7 +35,7 @@ export default function Contact() {
                 />
                 <Link
                   icon={<FaFileAlt />}
-                  url="https://drive.google.com/file/d/1kyAfWdUH_XeyvNEV2gylgUfTmdYnxGZw/view?usp=sharing"
+                  url="https://drive.google.com/file/d/1frqqomn-WWPUEGQJWzb-33YtWxHgBLU9/view?usp=drive_link"
                   title="Curriculo"
                 />
               </ul>
@@ -68,7 +68,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="hidden h-80 w-5/12 rounded-3xl bg-lightcontato bg-cover bg-center shadow-orange md:block dark:bg-darkcontato dark:shadow-cyan"></div>
+        <div className="bg-lightcontato2 dark:bg-darkcontato2 hidden h-96 w-5/12 rounded-3xl bg-cover bg-center shadow-orange md:block dark:shadow-cyan"></div>
       </div>
     </div>
   );
